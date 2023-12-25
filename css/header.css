@@ -12,7 +12,7 @@
   justify-content: space-between;
 }
 
-.header-ads {
+.header-ad {
   margin-top: 20px;
   padding-bottom: 40px;
   display: flex;
@@ -20,7 +20,7 @@
   justify-content: space-between;
 }
 
-.header-ads-image img {
+.header-ad-image img {
   height: 500px;
 }
 
