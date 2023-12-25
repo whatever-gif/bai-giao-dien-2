@@ -1,0 +1,23 @@
+.about {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.about-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-item img {
+  height: 123px;
+  width: 111px;
+}
+
+.about-item-desc {
+  font-weight: 600;
+  font-size: 18px;
+  color: #281d52;
+}

@@ -1,0 +1,36 @@
+.carousel {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.carousel-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.carousel-container img {
+  width: 100%;
+}
+
+.carousel-button {
+  display: flex;
+  gap: 5px;
+}
+
+.carousel-button-item {
+  cursor: pointer;
+  display: block;
+  background-color: #e0e0de;
+  width: 30px;
+  height: 3px;
+}
+
+.carousel-button-item.active {
+  background-color: #281d52;
+}

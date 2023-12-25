@@ -1,0 +1,28 @@
+.partner {
+  background-image: url("../images/Image9.png");
+  margin-top: 50px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  padding-top: 20px;
+  background-position: 100% 50%;
+}
+
+.partner h3 {
+  font-weight: 600;
+}
+
+.partner-desc {
+  color: #fff;
+  max-width: 700px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.partner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

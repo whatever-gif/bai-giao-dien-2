@@ -30,3 +30,10 @@ body {
   height: 100%;
   background-color: #281d52;
 }
+
+.separator {
+  background-color: #f3f3f3;
+  height: 30px;
+  width: 100%;
+  display: block;
+}
